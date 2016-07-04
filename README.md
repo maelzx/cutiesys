@@ -19,7 +19,7 @@ The name CUTIeSYS have a simple meaning, *CUTI* means leave in my language, *e* 
 $config['base_url'] = '<replace with your url or ip address dont for the forward slash>/';
 ```
 5. Done. Fire up browser and browse to the new url address as per what your config previously
-6. Login by using *username*: admin *password*: password 
+6. Login by using **username**: admin **password**: password 
 
 ## What we use
 
@@ -49,7 +49,7 @@ One day we want to view who is not available during the Eid Holiday (Public Holi
 
 ## Preview
 1. Go [here](https://cutiesys.isha.my)
-2. Login using *username*: admin *password*: password 
+2. Login using **username**: admin **password**: password 
 
 ## Bugs & Issues
 
