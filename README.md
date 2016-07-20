@@ -49,7 +49,10 @@ One day we want to view who is not available during the Eid Holiday (Public Holi
 
 ## Preview
 1. Go [here](https://cutiesys.isha.my)
-2. Login using **username**: admin **password**: password 
+2. Login using **username**: admin **password**: password
+
+## Quickly Deploy to Codeanywhere
+1. Follow the guide [here](https://ishait.wordpress.com/2016/07/20/start-developing-github-project-from-codeanywhere)
 
 ## Bugs & Issues
 
