@@ -10,6 +10,9 @@ $this->load->view('sidebar_section', array('page' => 'user'));
         .user-panel .info {
             left: 0px !important;
         }
+        #btn_add_user {
+            margin-bottom: 5px;
+        }
     </style>
 
     <div class="content-wrapper">
@@ -22,19 +25,23 @@ $this->load->view('sidebar_section', array('page' => 'user'));
         <section class="content">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <div class="col-md-1">
-                        <button id="btn_add_user" class="btn btn-primary">Add User</button>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <button id="btn_add_user" class="btn btn-primary">Add User</button>
+                        </div>
                     </div>
-                    <table id="dtt_user_list" class="table table-striped table-bordered dataTable no-footer" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th>Login</th>
-                                <th>Full Name</th>
-                                <th>Approver</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <div class="row">
+                        <table id="dtt_user_list" class="table table-striped table-bordered dataTable no-footer" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>Login</th>
+                                    <th>Full Name</th>
+                                    <th>Approver</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
                 </div>
             </div>
         </section>
